@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Информация о Роберте Паттинсоне</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Роберт Паттинсон</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- Карусель -->
+    <div id="actorCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="сумерки1.png" class="d-block w-100" alt="Роберт Паттинсон 1">
+            </div>
+            <div class="carousel-item">
+                <img src="сумерки2.jpeg" class="d-block w-100" alt="Роберт Паттинсон 2">
+            </div>
+            <div class="carousel-item">
+                <img src="сумерки3.webp" class="d-block w-100" alt="Роберт Паттинсон 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <!-- Боковое меню -->
+    <div class="row">
+        <div class="col-md-3">
+            <div id="sidebar" class="position-sticky top-0">
+                <h5>Содержание</h5>
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="#carousel">Карусель</a>
+                    <a class="nav-link" href="#movies">Карточки с фильмами</a>
+                    <a class="nav-link" href="#about">Краткая информация</a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Основной контент -->
+        <div class="col-md-9">
+            <!-- Карточки с фильмами -->
+            <h2 id="movies">Фильмы с Робертом Паттинсоном</h2>
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="сумерки4.webp" class="card-img-top" alt="Фильм 1">
+            <div class="card-body">
+                <h5 class="card-title">Сумерки</h5>
+                <p class="card-text">Самый лучший фильм!</p>
+                <a href="https://www.kinopoisk.ru/film/401177/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="сумерки5.webp" class="card-img-top" alt="Фильм 2">
+            <div class="card-body">
+                <h5 class="card-title">Сумекри.Сага.Новолуние</h5>
+                <p class="card-text">Второй самый лучший фильм!</p>
+                <a href="https://www.kinopoisk.ru/film/420224/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="сумерки6.webp" class="card-img-top" alt="Фильм 3">
+            <div class="card-body">
+                <h5 class="card-title">Сумерки.Сага.затмение</h5>
+                <p class="card-text">Третий самый лучший фильм...</p>
+                <a href="https://www.kinopoisk.ru/film/432423/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Краткая информация об актёре -->
+            <h2 id="about">Краткая информация об актёре</h2>
+            <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#infoCollapse">Показать/Скрыть информацию</button>
+            <div id="infoCollapse" class="collapse mt-3">
+                <div class="container1">
+                    <h1>Роберт Паттинсон</h1>
+                    <div class="bio">
+                        <p>Роберт Дуглас Томас Паттинсон родился 13 мая 1986 года в Лондоне. Его мать Клэр работала на модельное агентство, а отец Ричард занимался вывозом винтажных машин из США.</p>
+                        
+                        <p>В 12 лет Роберт занялся модельной карьерой. В 15 лет его пригласили в театр Барнса, где он играл в постановках «Macbeth», «Anything Goes», «Tess of the D’Urbevilles».</p>
+                
+                        <p>Первую роль в кино Паттинсон сыграл в 2004 году (роль второго плана в фильме «Кольцо Нибелунгов»). Широкую популярность получил после роли Седрика Диггори в ленте «Гарри Поттер и Кубок Огня».</p>
+                
+                        <p>Актёрским прорывом стал фильм «Сумерки» по книге Стефани Майер. В фильме Роберт играет Эдварда Каллена — вампира, который влюбляется в обычную девушку Беллу (Кристен Стюарт). Роберт снялся также в следующих фильмах по романам Майер «Новолуние», «Затмение», «Рассвет».</p>
+                
+                        <p class="quote">Помимо актёрской игры, Роберт играет музыку и спел в нескольких саундтреках к фильмам. Он поддерживает несколько благотворительных организаций, в том числе кампанию GO, и является лицом аромата Dior Homme с 2013 года.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
